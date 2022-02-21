@@ -5,6 +5,7 @@
  *  Author: pente
  */ 
 
+#include <avr/io.h>
 
 #ifndef KEY_DRIVER_H_
 #define KEY_DRIVER_H_

@@ -12,5 +12,5 @@ void init_leds() {
 }
 void set_led(uint8_t led_no, uint8_t state)
 {
-	
+	PORTA |= state << led_no;
 }

@@ -38,7 +38,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\key_to_led\drivers\key_driver.c" />
     <ClCompile Include="..\fake_avr_sfr.c" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="key_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
