@@ -23,3 +23,14 @@ key_to_led_driver_test/packages/Microsoft.googletest.v140.windesktop.msvcstl.sta
 key_to_led_driver_test/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.5/lib/native/v140/windesktop/msvcstl/static/rt-dyn/x86
 key_to_led_driver_test/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.5
 key_to_led_driver_test/x64/Debug
+key_to_led/Debug/main.o
+key_to_led/Debug/main.d
+*.srec
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.d
+*.o
+*.mk
