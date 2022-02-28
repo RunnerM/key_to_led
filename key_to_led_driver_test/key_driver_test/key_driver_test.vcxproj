@@ -75,7 +75,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <ForcedIncludeFiles>"C:\Users\pente\UNI\HWP\fake_avr\forced_include.h";%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>"C:\Users\pente\UNI\HWP\key_to_led\key_to_led_driver_test\forced_include.h";%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

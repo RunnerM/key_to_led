@@ -36,7 +36,7 @@ TEST_F(key_driver_test, test_get_key_for_one) {
 
 TEST_F(key_driver_test, test_get_key_for_many) {
 	PINA = 0b11111111;
-	for (int i = 0; i <= 5;i++) {
+	for (int i = 0; i <= 7;i++) {
 		PINA &= ~(1 << i);
 		EXPECT_EQ(1, get_key(i));
 	}
