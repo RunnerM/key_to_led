@@ -24,6 +24,7 @@ uint8_t get_key(uint8_t key_no) //key 1-8
 	if(key_no<6){
 		key_state = PINC & _BV(key_no);
 	}else{
+		key_no -= 4;
 		key_state = PIND & _BV(key_no);
 	}
 	if ((key_state)==0)
@@ -36,7 +37,7 @@ uint8_t get_key(uint8_t key_no) //key 1-8
 
 uint8_t scan_key()
 {
-	for (uint8_t i = 1; i < 7; i++ ) {
+	for (uint8_t i = 1; i <= 8; i++ ) {
 		if (get_key(i) == 1) {
 			return i;
 		}

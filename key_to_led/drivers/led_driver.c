@@ -28,7 +28,7 @@ void lightbar(uint8_t level)
 	if (level>8) {
 		level = 8; //making sure level is in range so no overflow will be experienced.
 	}
-	for (int i = 0; i < level; i++) {
+	for (int i = 0; i <= level; i++) {
 		set_led(i,1);
 	}
 }
